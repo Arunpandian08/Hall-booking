@@ -12,13 +12,13 @@ app.use('/hall-booking', appRouters)
 app.get('/', (req, res) => {
     res.status(200).send(`
     <div style='text-align:center'>
-    <h3 style='background-color:orange;color:black'>All APIs with End-Points</h3>
-    <h6 >API For all Rooms: <a href='http://localhost:4000/hall-booking/rooms'>http://localhost:4000/hall-booking/rooms</a></h6>
-    <h6 >API For Create Rooms(Post): <a href='http://localhost:4000/hall-booking/create-room'>http://localhost:4000/hall-booking/create-room</a></h6>
-    <h6 >API For Room Booking: <a href='http://localhost:4000/hall-booking/booking'>http://localhost:4000/hall-booking/booking</a></h6>
-    <h6 >API For all Rooms booked data: <a href='http://localhost:4000/hall-booking/booked-data'>http://localhost:4000/hall-booking/booked-data</a></h6>
-    <h6 >API For Room booked customer data: <a href='http://localhost:4000/hall-booking/booked-customer'>http://localhost:4000/hall-booking/booked-customer</a></h6>
-    <h6 >API For Booked customer count: <a href='http://localhost:4000/hall-booking/customer-count?customer_name=Arun'>http://localhost:4000/hall-booking/customer-count?customer_name=Arun</a></h6>
+    <h3 style='background-color:orange;color:black; font-size:1.2rem'>All APIs with End-Points</h3>
+    <h6 style='font-size:1rem' >API For all Rooms: <a href='https://hall-booking-p1jj.onrender.com/hall-booking/rooms'>https://hall-booking-p1jj.onrender.com/hall-booking/rooms</a></h6>
+    <h6 style='font-size:1rem' >API For Create Rooms(Post): <a href='https://hall-booking-p1jj.onrender.com/hall-booking/create-room'>https://hall-booking-p1jj.onrender.com/hall-booking/create-room</a></h6>
+    <h6 style='font-size:1rem' >API For Room Booking(Post): <a href='https://hall-booking-p1jj.onrender.com/hall-booking/booking'>https://hall-booking-p1jj.onrender.com/hall-booking/booking</a></h6>
+    <h6 style='font-size:1rem' >API For all Rooms booked data: <a href='https://hall-booking-p1jj.onrender.com/hall-booking/booked-data'>https://hall-booking-p1jj.onrender.com/hall-booking/booked-data</a></h6>
+    <h6 style='font-size:1rem' >API For Room booked customer data: <a href='https://hall-booking-p1jj.onrender.com/hall-booking/booked-customer'>https://hall-booking-p1jj.onrender.com/hall-booking/booked-customer</a></h6>
+    <h6 style='font-size:1rem' >API For Booked customer count: <a href='https://hall-booking-p1jj.onrender.com/hall-booking/customer-count?customer_name=Arun'>https://hall-booking-p1jj.onrender.com/hall-booking/customer-count?customer_name=Arun</a></h6>
     </div>`);
 })
 //Application Listener for port
